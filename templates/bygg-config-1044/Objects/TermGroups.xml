@@ -1,0 +1,71 @@
+<pnp:TermGroups xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+    <pnp:TermGroup Name="Prosjektportalen" ID="c56bb677-f782-4cf6-a6d6-17685ee9f19d" Description=" ">
+        <pnp:TermSets>
+            <pnp:TermSet Name="Fase (Bygg)" ID="d0be659f-905c-41d6-bd5b-1d97439f2eb8" Description=" ">
+                <pnp:Terms>
+                    <pnp:Term Name="Ingen fase" ID="05e8ddc3-716a-4d42-b2c0-fa8f8ebf802b" CustomSortOrder="1" SourceTermId="05e8ddc3-716a-4d42-b2c0-fa8f8ebf802b">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="No phase" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="false" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Flere faser" ID="19ebbcdb-420e-412b-b5c7-6076e25a00d8" CustomSortOrder="2" SourceTermId="19ebbcdb-420e-412b-b5c7-6076e25a00d8">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Several phases" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="false" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Konsept" ID="9ffc7d67-b337-4f41-8a07-562e3116a9ea" CustomSortOrder="3" SourceTermId="9ffc7d67-b337-4f41-8a07-562e3116a9ea">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Starting up" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="true" />
+                            <pnp:Property Key="PhaseLevel" Value="Portfolio" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Planlegge" ID="c3d80fbb-8652-4155-bdc2-86954dc991de" CustomSortOrder="4" SourceTermId="c3d80fbb-8652-4155-bdc2-86954dc991de">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Initiating" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="true" />
+                            <pnp:Property Key="PhaseLevel" Value="Project" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Gjennomføre" ID="88ec7056-4557-4b38-b59b-2bd755adad1c" CustomSortOrder="5" SourceTermId="88ec7056-4557-4b38-b59b-2bd755adad1c">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Directing" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="true" />
+                            <pnp:Property Key="PhaseLevel" Value="Project" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Avslutte" ID="1a2925f2-e76e-4fb0-bd28-81968d538cff" CustomSortOrder="6" SourceTermId="1a2925f2-e76e-4fb0-bd28-81968d538cff">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Closing" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="true" />
+                            <pnp:Property Key="PhaseLevel" Value="Project" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                    <pnp:Term Name="Realisere" ID="50bff6c3-929d-4671-b23b-e4160de9079a" CustomSortOrder="7" SourceTermId="50bff6c3-929d-4671-b23b-e4160de9079a">
+                        <pnp:Labels>
+                            <pnp:Label Language="1033" Value="Benefits realization" IsDefaultForLanguage="true" />
+                        </pnp:Labels>
+                        <pnp:LocalCustomProperties>
+                            <pnp:Property Key="ShowOnFrontpage" Value="true" />
+                            <pnp:Property Key="PhaseLevel" Value="Portfolio" />
+                        </pnp:LocalCustomProperties>
+                    </pnp:Term>
+                </pnp:Terms>
+            </pnp:TermSet>
+        </pnp:TermSets>
+    </pnp:TermGroup>
+</pnp:TermGroups>
