@@ -26,7 +26,7 @@
             <pnp:Folder Name="340 Fremdrift"></pnp:Folder>
             <pnp:Folder Name="350 Rapportering"></pnp:Folder>
         </pnp:Folder>
-         <pnp:Folder Name="400 Korrespondanse">
+        <pnp:Folder Name="400 Korrespondanse">
             <pnp:Folder Name="410 Kommune"></pnp:Folder>
             <pnp:Folder Name="420 Eksterne myndigheter"></pnp:Folder>
             <pnp:Folder Name="430 Informasjon"></pnp:Folder>
@@ -36,7 +36,7 @@
             <pnp:Folder Name="470 Grunneiere"></pnp:Folder>
             <pnp:Folder Name="480 Andre"></pnp:Folder>
         </pnp:Folder>
-         <pnp:Folder Name="500 Møter">
+        <pnp:Folder Name="500 Møter">
             <pnp:Folder Name="510 Byggherremøter"></pnp:Folder>
             <pnp:Folder Name="520 Prosjektering"></pnp:Folder>
             <pnp:Folder Name="530 Byggemøter"></pnp:Folder>
