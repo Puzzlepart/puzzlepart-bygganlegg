@@ -1,5 +1,5 @@
 <pnp:ListInstance Title="Fasesjekkliste" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/PhaseChecklist" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false" 
-    xmlns:pnp="http://schemas.dev.office.com/PnP/2016/05/ProvisioningSchema">
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
     <pnp:ContentTypeBindings>
         <pnp:ContentTypeBinding ContentTypeID="0x010088578E7470CC4AA68D5663464831070204" Default="true" />
     </pnp:ContentTypeBindings>
@@ -247,77 +247,77 @@
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Har driftspersonell deltatt ved fullskalatester?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">490</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Er FDV dokumentasjon ferdigstilt og godkjent av EDF?</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">500</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Er FDV dokumentasjon ferdigstilt og godkjent av EDF?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Er alle mangler utbedret?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">510</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Er alle mangler utbedret?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Evt;  er det lagt en plan for utbedring av mangler?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">520</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Evt;  er det lagt en plan for utbedring av mangler?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Er ansvar for evt. oppfølging av mangler og endringsønsker avklart?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">530</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Er ansvar for evt. oppfølging av mangler og endringsønsker avklart?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Er det utarbeidet en møteplan for prøvedriftsperioden?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">540</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Er det utarbeidet en møteplan for prøvedriftsperioden?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">Er det avklart med EDF og controller hvor mye prosjektmidler som skal settes av til 1. prøvedrift/1. driftsår?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">550</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Er det avklart med EDF og controller hvor mye prosjektmidler som skal settes av til 1. prøvedrift/1. driftsår?</pnp:DataValue>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="Title">For skoler og barnehager: har vi fått miljørettet helsevern- godkjenning fra Arbeidstilsynet?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">560</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">For skoler og barnehager: har vi fått miljørettet helsevern- godkjenning fra Arbeidstilsynet?</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">570</pnp:DataValue>
-        </pnp:DataRow>
-         <pnp:DataRow>
+        <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er alle arkivverdige dokumenter lagret i arkivsystemet?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Gjennomføre|99d7765a-c786-4792-a1a1-866ef0f982b9</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">580</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">570</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er alle mangler utbedret?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">580</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
+        <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er sjekkliste for oppstart drift fylt ut?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
         </pnp:DataRow>
-         <pnp:DataRow>
+        <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er det skrevet sluttrapport med sluttregnskap?</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130c</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">600</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er det skrevet evalueringsrapporter av entreprenørene?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">610</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er alle innestående beløp utbetalt til entreprenørene?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">620</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Er alle arkivverdige dokumenter lagret i arkivsystemet?</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Avslutte|30e03c52-8c3e-4cfe-9b18-ca71593ce130</pnp:DataValue>
-            <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSortOrder">630</pnp:DataValue>
         </pnp:DataRow>
     </pnp:DataRows>
 </pnp:ListInstance>

@@ -1,0 +1,64 @@
+<pnp:ListInstance Title="Standarddokumenter" Description="" DocumentTemplate="" TemplateType="101" Url="StandardDocuments" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" ContentTypesEnabled="true" RemoveExistingContentTypes="true" 
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+    <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x010100293FDE3FCADA480B9A77BBDAD7DFA28C01" Default="true" />
+    </pnp:ContentTypeBindings>
+    <pnp:Folders>
+        <pnp:Folder Name="100 Grunnlag">
+            <pnp:Folder Name="110 Off. forhold-tillatelser"></pnp:Folder>
+            <pnp:Folder Name="120 Politisk behandling"></pnp:Folder>
+            <pnp:Folder Name="130 Media (info)"></pnp:Folder>
+            <pnp:Folder Name="140 Oppdrag og grunnlagsdata"></pnp:Folder>
+            <pnp:Folder Name="150 Avtaler (ekskl. leverandøravtaler)"></pnp:Folder>
+            <pnp:Folder Name="160 Prosjektplaner- fullmakter"></pnp:Folder>
+            <pnp:Folder Name="170 Notater- erfaringer"></pnp:Folder>
+            <pnp:Folder Name="180 Adresselister"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="200 Anskaffelser">
+            <pnp:Folder Name="210 Rådgivere og Arkitekter"></pnp:Folder>
+            <pnp:Folder Name="220 Byggeledelse"></pnp:Folder>
+            <pnp:Folder Name="230 Entreprenører"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="300 Økonomi- fremdrift">
+            <pnp:Folder Name="310 Budsjett"></pnp:Folder>
+            <pnp:Folder Name="320 Fakturaer"></pnp:Folder>
+            <pnp:Folder Name="330 Endringer"></pnp:Folder>
+            <pnp:Folder Name="340 Fremdrift"></pnp:Folder>
+            <pnp:Folder Name="350 Rapportering"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="400 Korrespondanse">
+            <pnp:Folder Name="410 Kommune"></pnp:Folder>
+            <pnp:Folder Name="420 Eksterne myndigheter"></pnp:Folder>
+            <pnp:Folder Name="430 Informasjon"></pnp:Folder>
+            <pnp:Folder Name="440 Arkitekter og Rådgivere"></pnp:Folder>
+            <pnp:Folder Name="450 Entreprenører"></pnp:Folder>
+            <pnp:Folder Name="460 Byggeleder"></pnp:Folder>
+            <pnp:Folder Name="470 Grunneiere"></pnp:Folder>
+            <pnp:Folder Name="480 Andre"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="500 Møter">
+            <pnp:Folder Name="510 Byggherremøter"></pnp:Folder>
+            <pnp:Folder Name="520 Prosjektering"></pnp:Folder>
+            <pnp:Folder Name="530 Byggemøter"></pnp:Folder>
+            <pnp:Folder Name="540 Fremdriftsmøter"></pnp:Folder>
+            <pnp:Folder Name="550 Særmøter"></pnp:Folder>
+            <pnp:Folder Name="560 Andre møter"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="600 KS, SHA, Miljø, Risiko">
+            <pnp:Folder Name="610 KS"></pnp:Folder>
+            <pnp:Folder Name="620 SHA"></pnp:Folder>
+            <pnp:Folder Name="630 Miljø"></pnp:Folder>
+            <pnp:Folder Name="640 Risiko"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="700 Tegninger og Rapporter">
+            <pnp:Folder Name="710 Tegninger"></pnp:Folder>
+            <pnp:Folder Name="720 Bilder og video"></pnp:Folder>
+            <pnp:Folder Name="730 Fagrapporter"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="800 FDV">
+            <pnp:Folder Name="810 FDV Bygg"></pnp:Folder>
+            <pnp:Folder Name="820 FDV Anlegg"></pnp:Folder>
+            <pnp:Folder Name="830 Protokoller- sluttrapport"></pnp:Folder>
+        </pnp:Folder>
+    </pnp:Folders>
+</pnp:ListInstance>
