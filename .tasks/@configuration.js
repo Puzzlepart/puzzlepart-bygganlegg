@@ -1,6 +1,5 @@
 'use strict';
-var path = require("path"),
-    autoPrefixerStylus = require('autoprefixer-stylus');
+var path = require("path")
 
 module.exports = {
     PATHS: {
@@ -20,21 +19,6 @@ module.exports = {
         ROOT_TEMPLATE: path.join(__dirname, "../_templates/root"),
         ASSETS_TEMPLATE: path.join(__dirname, "../_templates/assets"),
         CONFIG_TEMPLATE: path.join(__dirname, "../_templates/config"),
-    },
-    USE_BUNDLE_ANALYZER: false,
-    JS: {
-        POLYFILLS: [            
-            'core-js/es6/map',
-            'core-js/es6/set',
-            'core-js/fn/object/assign',
-            'core-js/es6/promise',
-            'whatwg-fetch',
-            'regenerator-runtime/runtime',
-        ],
-    },
-    STYLUS: {
-        compress: false,
-        use: [autoPrefixerStylus('last 5 versions')],
     },
     VERSION_REPLACE_TOKEN: "{package-version}"
 }

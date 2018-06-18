@@ -5,7 +5,6 @@ var gulp = require("gulp"),
     flatmap = require("gulp-flatmap"),
     replace = require('gulp-replace'),
     format = require("string-format"),
-    typescript = require("gulp-typescript"),
     configuration = require('./@configuration.js'),
     merge = require("merge2"),
     git = require("./utils/git.js"),
@@ -35,13 +34,4 @@ gulp.task("stampVersionToDist", cb => {
     git.hash(gitHash => {
         es.concat(gulp.src(path.join(configuration.PATHS.DIST, "/*.ps1")).pipe(flatmap((stream, file) => replaceVersionToken(stream, gitHash, configuration.PATHS.DIST)))).on('end', cb);
     });
-});
-
-gulp.task("buildLib", () => {
-    var project = typescript.createProject("src/tsconfig.json", { declaration: true });
-    var built = gulp.src(configuration.PATHS.SOURCE_GLOB).pipe(project(typescript.reporter.fullReporter()));
-    return merge([
-        built.dts.pipe(gulp.dest(configuration.PATHS.LIB)),
-        built.js.pipe(gulp.dest(configuration.PATHS.LIB))
-    ]);
 });

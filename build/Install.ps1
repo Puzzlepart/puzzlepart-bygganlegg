@@ -7,22 +7,25 @@ This script will install Program to a site collection
 Use the required -Url param to specify the target site collection. You can also install assets and default data to other site collections. The script will provision all the necessary lists, files and settings necessary for Prosjektportalen to work.
 
 .EXAMPLE
-./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygganlegg
+./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/program
 
 .LINK
-https://github.com/Puzzlepart/prosjektportalen-bygganlegg
+https://github.com/Puzzlepart/prosjektportalen-program
 
 #>
 
 Param(
     [Parameter(Mandatory = $true, HelpMessage = "Where do you want to install the Program customizations?")]
     [string]$Url,
+    [Parameter(Mandatory = $true)]
+    [ValidateSet('Bygg', 'Anlegg')]
+    [string]$ProjectType,
     [Parameter(Mandatory = $false, HelpMessage = "Where do you want to install the required resources?")]
     [string]$AssetsUrl,
     [Parameter(Mandatory = $false, HelpMessage = "Do you want to handle PnP libraries and PnP PowerShell without using bundled files?")]
     [switch]$SkipLoadingBundle,
     [Parameter(Mandatory = $false, HelpMessage = "Stored credential from Windows Credential Manager")]
-    [string]$GenericCredential,
+    [SecureString]$GenericCredential,
     [Parameter(Mandatory = $false, HelpMessage = "Use Web Login to connect to SharePoint. Useful for e.g. ADFS environments.")]
     [switch]$UseWebLogin,
     [Parameter(Mandatory = $false, HelpMessage = "Use the credentials of the current user to connect to SharePoint. Useful e.g. if you install directly from the server.")]
@@ -45,21 +48,21 @@ Param(
 
 . ./SharedFunctions.ps1
 
-# Loads bundle if switch SkipLoadingBundle is not present
+#Loads bundle if switch SkipLoadingBundle is not present
 if (-not $SkipLoadingBundle.IsPresent) {
     LoadBundle -Environment $Environment
 }
 
-# Handling credentials
-if ($PSCredential -ne $null) {
-    $Credential = $PSCredential
-}
-elseif ($GenericCredential -ne $null -and $GenericCredential -ne "") {
-    $Credential = Get-PnPStoredCredential -Name $GenericCredential -Type PSCredential 
-}
-elseif ($Credential -eq $null -and -not $UseWebLogin.IsPresent -and -not $CurrentCredentials.IsPresent) {
-    $Credential = (Get-Credential -Message "Please enter your username and password")
-}
+#Handling credentials
+# if ($PSCredential -ne $null) {
+#     $Credential = $PSCredential
+# }
+# elseif ($GenericCredential -ne $null -and $GenericCredential -ne "") {
+#     $Credential = Get-PnPStoredCredential -Name $GenericCredential -Type PSCredential 
+# }
+# elseif ($Credential -eq $null -and -not $UseWebLogin.IsPresent -and -not $CurrentCredentials.IsPresent) {
+#     $Credential = (Get-Credential -Message "Please enter your username and password")
+# }
 
 if (-not $AssetsUrl) {
     $AssetsUrl = $Url
@@ -144,67 +147,42 @@ function Start-Install() {
         }
     }
 
-    # Applies assets template
-    try {
-        Connect-SharePoint $AssetsUrl
-        Write-Host "Deploying required scripts and styling.. " -ForegroundColor Green -NoNewLine
-        Apply-Template -Template "assets" -Localized
-        Write-Host "DONE" -ForegroundColor Green
-        Disconnect-PnPOnline
-    }
-    catch {
-        Write-Host
-        Write-Host "Error installing assets template to $AssetsUrl" -ForegroundColor Red 
-        Write-Host $error[0] -ForegroundColor Red
-        exit 1 
-    }
-    
-    # Installing root
-    try {     
-        Connect-SharePoint $Url 
-        Write-Host "Deploying root-package with fields, content types, lists and pages..." -ForegroundColor Green -NoNewLine
-        Apply-Template -Template root -ExcludeHandlers PropertyBagEntries
-        Write-Host "`tDONE" -ForegroundColor Green
-        Disconnect-PnPOnline
-    }
-    catch {
-        Write-Host
-        Write-Host "Error installing root-package to $Url" -ForegroundColor Red
-        Write-Host $error[0] -ForegroundColor Red
-        exit 1 
-    }
-    
-    
-    if (-not $SkipDefaultConfig.IsPresent -and -not $Upgrade.IsPresent) {
-        # Installing config
-        try {
-            Connect-SharePoint $Url 
-            Write-Host "Deploying default config.." -ForegroundColor Green -NoNewLine
-            Apply-Template -Template config
-            Write-Host "`t`t`t`t`t`tDONE" -ForegroundColor Green
-            Disconnect-PnPOnline
+
+    switch ( $ProjectType ) {
+        Bygg { 
+            # Apply root config 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying root-package with fields, content types, lists and pages..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "bygg-config" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing root-package to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
         }
-        catch {
-            Write-Host
-            Write-Host "Error installing default config to $Url" -ForegroundColor Red
-            Write-Host $error[0] -ForegroundColor Red
+        Anlegg {
+            # Apply root config 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying root-package with fields, content types, lists and pages..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template root -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing root-package to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
         }
     }
 
-    try {
-        Connect-SharePoint $Url 
-        Write-Host "Updating web property bag..." -ForegroundColor Green -NoNewLine
-        Apply-Template -Template "root" -Localized -Handlers PropertyBagEntries
-        Write-Host "`t`t`t`t`t`tDONE" -ForegroundColor Green
-        Disconnect-PnPOnline
-    }
-    catch {
-        Write-Host
-        Write-Host "Error updating web property bag for $Url" -ForegroundColor Red
-        Write-Host $error[0] -ForegroundColor Red
-        exit 1 
-    }
-    
     $sw.Stop()
     Write-Host "Installation completed in [$($sw.Elapsed)]" -ForegroundColor Green
 }
