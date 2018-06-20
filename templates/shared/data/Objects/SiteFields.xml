@@ -1,0 +1,82 @@
+<pnp:SiteFields xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+    <Field ID="{16623c2a-3fd1-41c2-87e7-958583dd88da}" Name="GtEndDate" DisplayName="Siste godkjente overtakelsesdato" Type="DateTime" Format="DateOnly" Group="Prosjektportalen områdekolonner" Description="" StaticName="GtEndDate"></Field>
+    <Field ID="{b02982d3-9e9f-4172-a576-34bcbe3b8332}" Name="GtBAEndDateOriginal" DisplayName="Opprinnelig overtakelsesdato" Type="DateTime" Format="DateOnly" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAEndDateOriginal"></Field>
+    <Field ID="{3060379a-34d5-4bfb-a97d-f6efa834ff69}" Name="GtBAProjectInvestementPhase" DisplayName="HP-fase" Type="Choice" Format="Dropdown" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectInvestementPhase">
+        <CHOICES>
+            <CHOICE>F0</CHOICE>
+            <CHOICE>F1</CHOICE>
+            <CHOICE>F2</CHOICE>
+            <CHOICE>F3</CHOICE>
+            <CHOICE>S (Sekkepost)</CHOICE>
+            <CHOICE>Ikke relevant</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field ID="{2d901967-ea4e-4cca-9548-72b1b65a002a}" Name="GtBAProjectBudgetOriginal" DisplayName="Opprinnelig budsjett (i mill. NOK)" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectBudgetOriginal"></Field>
+    <Field ID="{337e5a14-e907-42e5-b48e-02c5254a3772}" Name="GtBAProjectBudgetLimit" DisplayName="Sist godkjente budsjett (i mill. NOK)" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectBudgetLimit"></Field>
+    <Field ID="{269ce355-74d8-4b7a-ac39-cb13e7129258}" Name="GtBAProjectTotalPrognosis" DisplayName="Totalprognose (i mill. NOK)" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectTotalPrognosis"></Field>
+    <Field ID="{c3cfcba3-299d-42e8-827b-a593ada04abc}" Name="GtBAProjectSupport" DisplayName="Tilskudd" Type="Choice" Format="Dropdown" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectSupport">
+        <Default>Skal undersøkes/vurderes</Default>
+        <CHOICES>
+            <CHOICE>Skal undersøkes/vurderes</CHOICE>
+            <CHOICE>Ikke aktuelt</CHOICE>
+            <CHOICE>Dialog med tilskuddsyter opprettet</CHOICE>
+            <CHOICE>Har søkt</CHOICE>
+            <CHOICE>Har fått tilsagn</CHOICE>
+            <CHOICE>Har fått avslag</CHOICE>
+            <CHOICE>Søkt utbetaling</CHOICE>
+            <CHOICE>Har fått utbetalt</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field Type="Note" DisplayName="Kommentar, tilskudd" Description="" RichText="FALSE" ID="{b8c0ad18-467b-4e7d-8d6b-9ca37171f07b}" StaticName="GtBAProjectSupportComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectSupportComment" Group="{parameter:GenericFieldsGroup}" />
+    <Field Type="Note" DisplayName="Kvalitet" Description="" RichText="FALSE" ID="{49c303ec-9091-4c89-b142-beea168ff4a5}" StaticName="GtBAProjectQuality" Name="GtBAProjectQuality" UnlimitedLengthInDocumentLibrary="TRUE" Group="{parameter:GenericFieldsGroup}" />
+    <Field Type="Note" DisplayName="Link til andre dokumenter" Description="" ID="{382e3fc7-0bfc-415c-920e-814cd2d34e7e}" StaticName="GtBADocumentLink" Name="GtBADocumentLink" UnlimitedLengthInDocumentLibrary="TRUE" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{58947845-13c8-4cb4-892c-90ea727e22a4}" Name="GtBAProjectSHA" DisplayName="Tilskudd" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectSHA">
+        <CHOICES>
+            <CHOICE>Ingen hendelser siste måned</CHOICE>
+            <CHOICE>Hendelse registrert siste måned</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field Type="Note" DisplayName="Kommentar, SHA" Description="" RichText="FALSE" ID="{150c9db0-b582-4997-978a-c76f8a2cd8f5}" StaticName="GtBAProjectSHAComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectSHAComment" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{df96c2a2-d85c-4d10-ac1f-c5d9bf87873c}" Name="GtBAProjectEnv" DisplayName="Miljø" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectEnv">
+        <CHOICES>
+            <CHOICE>Ingen hendelser siste måned</CHOICE>
+            <CHOICE>Hendelse registrert siste måned</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field Type="Note" DisplayName="Kommentar, miljø" Description="" RichText="FALSE" ID="{cf7714a7-bec5-4c94-aa8a-e624148972a2}" StaticName="GtBAProjectEnvComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectEnvComment" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{f2a206c4-3b95-426b-9d46-dc9f283ed453}" Name="GtBAProjectPolitical" DisplayName="Siste politiske vedtak" Type="DateTime" Format="DateOnly" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectPolitical"></Field>
+    <Field Type="Note" DisplayName="Kommentar, siste politiske vedtak" Description="" RichText="FALSE" ID="{884d1db9-b8a5-4949-b74d-57d1ae0a2cf9}" StaticName="GtBAProjectPoliticalComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectPoliticalComment" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{c3ef03c1-b6b8-4b9f-a0e5-3e119d23522f}" Name="GtBAProjectPoliticalLink" DisplayName="" Type="URL" Group="{parameter:GenericFieldsGroup}" Description="" Format="Hyperlink" StaticName="GtBAProjectPoliticalLink"></Field>
+    <Field Type="Note" DisplayName="Usikkerhet i prosjektet" Description="" RichText="FALSE" ID="{d3414b2a-5939-4c07-ba0b-83cd2931c9ae}" StaticName="GtBAProjectUncertainty" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectUncertainty" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{4d5c89ad-661b-4af3-8602-32f29a33b6aa}" Name="GtBAProjectAccountedTotal" DisplayName="Regnskapsført totalt" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectAccountedTotal"></Field>
+    <Field ID="{7c3b2e69-a62c-49de-ac77-ddbc78afece2}" Name="GtBAProjectAccountedThisYear" DisplayName="Regnskapsført i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectAccountedThisYear"></Field>
+    <Field ID="{acdefadc-b59c-4606-8686-206f87a69731}" Name="GtBAProjectBudgetThisYear" DisplayName="Budsjett i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectBudgetThisYear"></Field>
+    <Field ID="{165b92ca-3224-4a86-a749-3b06d315947f}" Name="GtBAProjectPrognosisThisYear" DisplayName="Prognose i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectPrognosisThisYear"></Field>
+    <Field ID="{54dff3d7-807a-440a-8327-107abf6aee42}" Name="GtBAProjectReserves" DisplayName="Forpliktet reserve" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectReserves"></Field>
+    <Field ID="{f73a2025-53ba-468e-a18f-3714a2a6c71e}" Name="GtBAProjectStatusCase" DisplayName="Status plan- og byggesak" Type="Choice" Format="Dropdown" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectStatusCase">
+        <Default>Reguleringsplan annonsert</Default>
+        <CHOICES>
+            <CHOICE>Reguleringsplan annonsert</CHOICE>
+            <CHOICE>Reguleringsplan 1.gangsbehandlet</CHOICE>
+            <CHOICE>Reguleringsplan godkjent</CHOICE>
+            <CHOICE>Forhåndskonferanse avholdt</CHOICE>
+            <CHOICE>Rammesøknad under utarbeidelse</CHOICE>
+            <CHOICE>Rammesøknad sendt</CHOICE>
+            <CHOICE>Rammetillatelse gitt</CHOICE>
+            <CHOICE>IG sendt</CHOICE>
+            <CHOICE>IG gitt</CHOICE>
+            <CHOICE>Klage under behandling</CHOICE>
+        </CHOICES>
+    </Field>
+    <Field Type="Note" DisplayName="Kommentar, status plan- og byggesak" Description="" RichText="FALSE" ID="{3a998841-f6a1-4445-ab71-94f650287f9c}" StaticName="GtBAProjectStatusCaseComment" Name="GtBAProjectStatusCaseComment" Group="{parameter:GenericFieldsGroup}" />
+    <Field ID="{f2bb8a37-f4cf-43a4-b180-0b07ab14abd5}" Name="GtStatusBudget" DisplayName="Status budsjett" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtStatusBudget">
+        <Default>På budsjett</Default>
+        <CHOICES>
+            <CHOICE>Under budsjett</CHOICE>
+            <CHOICE>På budsjett</CHOICE>
+            <CHOICE>Mindre overskridelser / overskridelser som kan tas igjen</CHOICE>
+            <CHOICE>Over budsjett</CHOICE>
+            <CHOICE>Vet ikke</CHOICE>
+        </CHOICES>
+    </Field>
+</pnp:SiteFields>
