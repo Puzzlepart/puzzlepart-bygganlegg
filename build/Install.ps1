@@ -1,16 +1,16 @@
 <#
 
 .SYNOPSIS
-This script will install Program to a site collection
+This script will install module Bygg or Anlegg  to a site collection - ProjectType can be set to Bygg, Anlegg or Prosjektportalen
 
 .DESCRIPTION
 Use the required -Url param to specify the target site collection. You can also install assets and default data to other site collections. The script will provision all the necessary lists, files and settings necessary for Prosjektportalen to work.
 
 .EXAMPLE
-./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/program
+./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/program -ProjectType Bygg
 
 .LINK
-https://github.com/Puzzlepart/prosjektportalen-program
+https://github.com/Puzzlepart/prosjektportalen-bygg
 
 #>
 
@@ -268,7 +268,6 @@ function Start-Install() {
                 Write-Host $error[0] -ForegroundColor Red
                 exit 1 
             }
-    
     
             if (-not $SkipDefaultConfig.IsPresent -and -not $Upgrade.IsPresent) {
                 # Installing config
