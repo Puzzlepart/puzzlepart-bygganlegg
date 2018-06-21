@@ -10,7 +10,7 @@ Use the required -Url param to specify the target site collection. You can also 
 ./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/program -ProjectType Bygg
 
 .LINK
-https://github.com/Puzzlepart/prosjektportalen-bygg
+https://github.com/Puzzlepart/prosjektportalen-bygganlegg
 
 #>
 
