@@ -18,7 +18,7 @@ Param(
     [Parameter(Mandatory = $true, HelpMessage = "Where do you want to install the Program customizations?")]
     [string]$Url,
     [Parameter(Mandatory = $true)]
-    [ValidateSet('Bygg', 'Anlegg')]
+    [ValidateSet('Bygg', 'Anlegg', 'Prosjektportalen')]
     [string]$ProjectType,
     [Parameter(Mandatory = $false, HelpMessage = "Where do you want to install the required resources?")]
     [string]$AssetsUrl,
@@ -130,10 +130,10 @@ function Start-Install() {
             else {
                 Write-Host "Installing Project Portal (estimated approx. 20 minutes)..." -ForegroundColor Green
                 if ($CurrentCredentials.IsPresent) {
-                    .\Install.ps1 -Url $Url -CurrentCredentials -SkipData -SkipTaxonomy -SkipDefaultConfig -SkipLoadingBundle:$SkipLoadingBundle -Environment:$Environment -AssetsUrl $AssetsUrl -Logging $Logging
+                    .\Install.ps1 -Url $Url -CurrentCredentials -SkipData -SkipTaxonomy -SkipDefaultConfig -SkipLoadingBundle:$SkipLoadingBundle -Environment:$Environment -AssetsUrl $AssetsUrl -Logging $Logging -ProjectType Prosjektportalen
                 }
                 else {
-                    .\Install.ps1 -Url $Url -PSCredential $Credential -SkipData -SkipTaxonomy -SkipDefaultConfig -SkipLoadingBundle:$SkipLoadingBundle -Environment:$Environment -AssetsUrl $AssetsUrl -Logging $Logging
+                    .\Install.ps1 -Url $Url -PSCredential $Credential -SkipData -SkipTaxonomy -SkipDefaultConfig -SkipLoadingBundle:$SkipLoadingBundle -Environment:$Environment -AssetsUrl $AssetsUrl -Logging $Logging -ProjectType Prosjektportalen
                 }
             }
             Set-Location $OriginalPSScriptRoot
@@ -150,23 +150,111 @@ function Start-Install() {
 
     switch ( $ProjectType ) {
         Bygg { 
-            # Apply root config 
+            # Apply bygg shared-data template 
             try {     
                 Connect-SharePoint $Url 
-                Write-Host "Deploying root-package with fields, content types, lists and pages..." -ForegroundColor Green -NoNewLine
+                Write-Host "Deploying shared-data with fields, content types and lists..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "shared-data" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing shared-package to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+            # Apply bygg-config template 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying bygg-config with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
                 Apply-Template -Template "bygg-config" -ExcludeHandlers PropertyBagEntries
                 Write-Host "`tDONE" -ForegroundColor Green
                 Disconnect-PnPOnline
             }
             catch {
                 Write-Host
-                Write-Host "Error installing root-package to $Url" -ForegroundColor Red
+                Write-Host "Error installing bygg-config to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+
+            # Apply bygg-data template 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying bygg-data with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "bygg-data" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing bygg-data to $Url" -ForegroundColor Red
                 Write-Host $error[0] -ForegroundColor Red
                 exit 1 
             }
         }
         Anlegg {
-            # Apply root config 
+            # Apply anlegg template 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying shared-data with fields, content types and lists..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "shared-data" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing shared-package to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+            # Apply anlegg template 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying anlegg-config with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "anlegg-config" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing anlegg-config to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+            # Apply anlegg template 
+            try {     
+                Connect-SharePoint $Url 
+                Write-Host "Deploying anlegg-data with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "anlegg-data" -ExcludeHandlers PropertyBagEntries
+                Write-Host "`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing anlegg-data to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+        }
+        Prosjektportalen {
+            # Applies assets template
+            try {
+                Connect-SharePoint $AssetsUrl
+                Write-Host "Deploying required scripts and styling.. " -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "assets" -Localized
+                Write-Host "DONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error installing assets template to $AssetsUrl" -ForegroundColor Red 
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+    
+            # Installing root
             try {     
                 Connect-SharePoint $Url 
                 Write-Host "Deploying root-package with fields, content types, lists and pages..." -ForegroundColor Green -NoNewLine
@@ -177,6 +265,37 @@ function Start-Install() {
             catch {
                 Write-Host
                 Write-Host "Error installing root-package to $Url" -ForegroundColor Red
+                Write-Host $error[0] -ForegroundColor Red
+                exit 1 
+            }
+    
+    
+            if (-not $SkipDefaultConfig.IsPresent -and -not $Upgrade.IsPresent) {
+                # Installing config
+                try {
+                    Connect-SharePoint $Url 
+                    Write-Host "Deploying default config.." -ForegroundColor Green -NoNewLine
+                    Apply-Template -Template config
+                    Write-Host "`t`t`t`t`t`tDONE" -ForegroundColor Green
+                    Disconnect-PnPOnline
+                }
+                catch {
+                    Write-Host
+                    Write-Host "Error installing default config to $Url" -ForegroundColor Red
+                    Write-Host $error[0] -ForegroundColor Red
+                }
+            }
+
+            try {
+                Connect-SharePoint $Url 
+                Write-Host "Updating web property bag..." -ForegroundColor Green -NoNewLine
+                Apply-Template -Template "root" -Localized -Handlers PropertyBagEntries
+                Write-Host "`t`t`t`t`t`tDONE" -ForegroundColor Green
+                Disconnect-PnPOnline
+            }
+            catch {
+                Write-Host
+                Write-Host "Error updating web property bag for $Url" -ForegroundColor Red
                 Write-Host $error[0] -ForegroundColor Red
                 exit 1 
             }

@@ -45,7 +45,7 @@
             <pnp:DataValue FieldName='GtStakeholderGroup'>Virksomheter</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>P&B</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>P&amp;B</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Virksomheter</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
