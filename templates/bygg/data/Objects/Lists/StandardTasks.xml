@@ -1,0 +1,775 @@
+<pnp:ListInstance Title="Standardoppgaver" Description="" DocumentTemplate="" TemplateType="171" Url="Lists/StandardTasks" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="f9ce21f8-f437-4f7e-8bc6-946378c850f0" ContentTypesEnabled="true" EnableFolderCreation="false" 
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
+    <pnp:ContentTypeBindings>
+        <pnp:ContentTypeBinding ContentTypeID="0x010800233B015F95174C9A8EB505493841DE8D" Default="true" />
+    </pnp:ContentTypeBindings>
+    <pnp:DataRows>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Mulighetsstudie (F0)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Analysere alternative løsninger</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vurdere tomter, trafikkforhold, energiløsninger etc (se Sjekkliste for oppdragsavtale- bygg)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Gjøre overordnede kostnadsvurderinger/ budsjettavsetning for de ulike alternativene</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vurdere overordnet fremdriftsplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Foreta en Interessentanalyse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Forberede politisk sak/presentasjon av alternativer</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>1</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Rom og Funksjonsprogram (F1)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Etablere prosjektorganisasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakte HVO og AMU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>9</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Skrive organisasjonsplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>9</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Holde oppstartsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>9</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Etablere rapporteringsrutiner</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>9</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere/gjennomføre en interessentanalyse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>9</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Engasjere arkitekt/rådgivere</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide konkurransegrunnlag for arkitekt/rådgiver</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>15</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utlyse konkurranse(r)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>15</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Evaluere tilbud</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>15</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Avholde kontraktsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>15</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utforme og signere avtaledokument</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>15</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide rom- og funksjonsprogram</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utrede og beskrive flere ulike alternativ (hvis relevant)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>21</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vurdere fordeler og ulemper ved ulike entrepriseformer basert på utfordringer og suksesskriterier for prosjektet. (Endelig beslutning om entrepriseform tas av styringsgruppen)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>21</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern eller ekstern kvalitetssikring</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>21</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern godkjenning i Styringsgruppen (IG1)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>21</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide Politisk Saksfremlegg (PS1)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sikre relevante statlige tilskudd</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vurdere mulighetene for statlige tilskudd</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>27</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakte Idretts og Friluftsliv og starte prosessen for å søke spillemidler i henhold til rutine for spillemidler i prosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>27</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakte Husbanken og starte prosessen for å søke Husbanktilskudd i henhold til rutine for Husbanktilskudd</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>27</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Identifisere aktuelle tilskuddsmidler for energi- og miljøtiltak i henhold til Rutinebeskrivelse for prosjekter som søker og mottar tilskudd til energi- og miljøtiltak</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>27</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide oppdragsavtale</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>8</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Fyll ut sjekkliste for oppdragsbeskrivelse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>32</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Gå gjennom sjekkliste med KS-leder</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Konsept|9ffc7d67-b337-4f41-8a07-562e3116a9ea</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>32</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Skisseprosjekt (F2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utføre skisseprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>35</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppstartmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vurdering/ justering av program</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere prosjektorganisasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Ajourføre fremdriftsplan og kalkyle</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere interessentanalyse med tiltak</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Skrive kommunikasjonsplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakt med bygg/ regulering</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Forslag til konstruksjoner</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>SHA i skisseprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Miljøgjennomgang og miljøplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Miljørettet helsevern (barnehager og skoler)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Konsultere HVO og AMU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Grunn- og rettighetserverv</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Universell utforming</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sammenstilling av skisseprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>36</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern godkjenning i styringsgruppen (IG2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>35</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Forprosjekt (F2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontrahering av arkitekt- og rådgivertjenester, ev. entreprenør</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>53</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide konkurransegrunnlag</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utlyse konkurranse(r)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Evaluere tilbud</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Avholde kontraktsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utforme og signere avtaledokument</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Avtale om SHA- koordinering utførelse (KU)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>54</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utføre forprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>53</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp/oppdatere interessentanalyse med tiltak</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakt IKT</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Søke statlige tilskudd (hvis relevant)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdater miljøplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide/oppdatere SHA-plan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Beregne livsløpskostnader (LCC)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende rammesøknad</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide fordelingsnøkkel (dersom ikke 100% mva kompensasjon)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide forprosjekttegninger</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende forhåndsmelding til arbeidstilsynet</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Fremme sak i rådet for mennesker med nedsatt funksjonsevne</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontakte AMU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere plandokumenter</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sammenstille forprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Gjennomføre usikkerhetsanalyse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere kalkyle</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>61</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Ekstern kvalitetssikring (K2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>53</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern godkjenning i styringsgruppen (IG3)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>53</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide politisk saksfremlegg (PS2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>53</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Detaljprosjekt (F2)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontrahering av entreprenør (Dersom prosjektet gjennomføres som totalentreprise, samspillentreprise, eller OPS- entreprise)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>81</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide konkurransegrunnlag</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kvalitetssikre konkurransegrunnlag</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utlyse konkurranse(r)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Evaluere tilbud</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Avholde kontraktsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utforme og signere avtaledokument</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>82</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Detaljprosjektering</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>81</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp/oppdatere interessentanalyse med tiltak</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp/oppdatere kommunikasjonsplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere miljøplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdater SHA-plan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp tiltak fra usikkerhetsanalysen</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppdatere kalkyle</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sammenstille detaljprosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende rammesøknad (hvis ikke utført i forprosjekt)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Evaluere arkitekt og rådgivertjenester</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Behandle rammesøknad</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>89</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern godkjenning i styringsgruppen (IG4)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Planlegge|c3d80fbb-8652-4155-bdc2-86954dc991de</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>81</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Byggefase (F3)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kontrahering av entreprenør (dersom prosjektet gjennomføres som hovedentreprise, delt entreprise eller generalentreprise)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utarbeide konkurransegrunnlag</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Kvalitetssikre konkurransegrunnlag</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utlyse konkurranse(r)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Evaluere tilbud</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Avholde kontraktsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utforme og signere avtaledokument</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>102</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende søknad om igangsetting (IG)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Behandling av søknad om IG</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Holde oppstartsmøte</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Definere organisasjon og roller</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utøve prosjektledelse i byggefasen</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp entreprenør og oppdatere planer</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>113</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp og oppdatere kommunikasjonsplan</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>113</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp og oppdatere usikkerhetsanalyse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>113</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Planlegge opplæring av driftspersonell</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>113</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Installasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Igangkjøring (inkl. funkjsonstester)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Forbefaring</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Teknisk ferdigstillelse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sjekke mottatt FDV dokumentasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>101</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sluttfase og overtakelse</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Byggvask 1</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Idriftsettelse (inkl. fullskala tester)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Opplæring av driftspersonell</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Byggvask 2 </pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Ferdigbefaring</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Søke om midlertidig brukstillatelse og ferdigattest</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Utbedring av mangler</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Bygg med tekniske anlegg klart for prøvedrift</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Overtakelse fra entreprenør</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Overleveringsmøte med forvalter og controller</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Økonomisk avslutning</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Følge opp eventuelle utbetalinger i henhold til rutiner statlige tilskudd</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>134</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende sluttrapport til Idretts og Friluftsliv i henhold til rutine for spillemidler i prosjekt</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>134</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sikre utbetaling fra Husbanktilskudd i henhold til rutine for Husbanktilskudd</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>134</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Sende sluttrapport til Enova i henhold til Rutinebeskrivelse for prosjekter som søker og mottar tilskudd til energi- og miljøtiltak</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>134</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Gjøre en gjennomgang av tilsagnsbrev med kontraktsfestet energiresultat med EDF henhold til Rutinebeskrivelse for prosjekter som søker og mottar tilskudd til energi- og miljøtiltak </pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>134</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Intern godkjenning i Styringsgruppen (IG5)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Skrive sluttrapport og evalueringsrapporter</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Gjennomføre|88ec7056-4557-4b38-b59b-2bd755adad1c</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>123</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Prøvedrift (1.driftsår)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Inngå service og vedlikeholdsavtaler</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppfølgingsmøte  1 med entreprenør og PL fra PRU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppfølgingsmøte  2 med entreprenør og PL fra PRU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Oppfølgingsmøte 3 med entreprenør og PL fra PRU</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Prøvedrift system A</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Prøvedrift system B</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Prøvedrift system C</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Garantibefaring</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Gjennomgang av prosjektet og hvilke midler som følger bygget over i forvaltning og drift etter prøvedrift</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Avslutte|1a2925f2-e76e-4fb0-bd28-81968d538cff</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>142</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Garantiperiode (år 2-5)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Realisere|50bff6c3-929d-4671-b23b-e4160de9079a</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Forvaltning</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Realisere|50bff6c3-929d-4671-b23b-e4160de9079a</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>152</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Drift</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Realisere|50bff6c3-929d-4671-b23b-e4160de9079a</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>152</pnp:DataValue>
+        </pnp:DataRow>
+        <pnp:DataRow>
+            <pnp:DataValue FieldName='Title'>Vedlikehold</pnp:DataValue>
+            <pnp:DataValue FieldName='GtProjectPhase'>Realisere|50bff6c3-929d-4671-b23b-e4160de9079a</pnp:DataValue>
+            <pnp:DataValue FieldName='ParentID'>152</pnp:DataValue>
+        </pnp:DataRow>
+
+    </pnp:DataRows>
+</pnp:ListInstance>
