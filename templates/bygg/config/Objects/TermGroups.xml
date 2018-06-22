@@ -26,6 +26,7 @@
                         <pnp:LocalCustomProperties>
                             <pnp:Property Key="ShowOnFrontpage" Value="true" />
                             <pnp:Property Key="PhaseLevel" Value="Portfolio" />
+                            <pnp:Property Key="SubText" Value="Mulighetsstudie (F0), Programfase (F1)" />
                         </pnp:LocalCustomProperties>
                     </pnp:Term>
                     <pnp:Term Name="Planlegge" ID="c3d80fbb-8652-4155-bdc2-86954dc991de" CustomSortOrder="4" SourceTermId="c3d80fbb-8652-4155-bdc2-86954dc991de">
@@ -35,6 +36,7 @@
                         <pnp:LocalCustomProperties>
                             <pnp:Property Key="ShowOnFrontpage" Value="true" />
                             <pnp:Property Key="PhaseLevel" Value="Project" />
+                            <pnp:Property Key="SubText" Value="Skisseprosjekt (F2), Forprosjekt (F2), Detaljprosjekt (F2)" />
                         </pnp:LocalCustomProperties>
                     </pnp:Term>
                     <pnp:Term Name="Gjennomføre" ID="88ec7056-4557-4b38-b59b-2bd755adad1c" CustomSortOrder="5" SourceTermId="88ec7056-4557-4b38-b59b-2bd755adad1c">
@@ -44,6 +46,7 @@
                         <pnp:LocalCustomProperties>
                             <pnp:Property Key="ShowOnFrontpage" Value="true" />
                             <pnp:Property Key="PhaseLevel" Value="Project" />
+                            <pnp:Property Key="SubText" Value="Byggfase (F3), Sluttfase og overtakelse" />
                         </pnp:LocalCustomProperties>
                     </pnp:Term>
                     <pnp:Term Name="Avslutte" ID="1a2925f2-e76e-4fb0-bd28-81968d538cff" CustomSortOrder="6" SourceTermId="1a2925f2-e76e-4fb0-bd28-81968d538cff">
@@ -53,6 +56,7 @@
                         <pnp:LocalCustomProperties>
                             <pnp:Property Key="ShowOnFrontpage" Value="true" />
                             <pnp:Property Key="PhaseLevel" Value="Project" />
+                            <pnp:Property Key="SubText" Value="Prøvedrift" />
                         </pnp:LocalCustomProperties>
                     </pnp:Term>
                     <pnp:Term Name="Realisere" ID="50bff6c3-929d-4671-b23b-e4160de9079a" CustomSortOrder="7" SourceTermId="50bff6c3-929d-4671-b23b-e4160de9079a">
@@ -62,6 +66,7 @@
                         <pnp:LocalCustomProperties>
                             <pnp:Property Key="ShowOnFrontpage" Value="true" />
                             <pnp:Property Key="PhaseLevel" Value="Portfolio" />
+                            <pnp:Property Key="SubText" Value="Forvaltning, Vedlikehold" />
                         </pnp:LocalCustomProperties>
                     </pnp:Term>
                 </pnp:Terms>

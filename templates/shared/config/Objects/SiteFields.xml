@@ -1,5 +1,5 @@
 <pnp:SiteFields xmlns:pnp="http://schemas.dev.office.com/PnP/2018/05/ProvisioningSchema">
-    <Field ID="{16623c2a-3fd1-41c2-87e7-958583dd88da}" Name="GtEndDate" DisplayName="Siste godkjente overtakelsesdato" Type="DateTime" Format="DateOnly" Group="Prosjektportalenkolonner" Description="" StaticName="GtEndDate"></Field>
+    <Field ID="{16623c2a-3fd1-41c2-87e7-958583dd88da}" Name="GtEndDate" DisplayName="Sluttdato" Type="DateTime" Format="DateOnly" Group="Prosjektportalenkolonner" Description="Siste godkjente overtakelsesdato" StaticName="GtEndDate"></Field>
     <Field ID="{b02982d3-9e9f-4172-a576-34bcbe3b8332}" Name="GtBAEndDateOriginal" DisplayName="Opprinnelig overtakelsesdato" Type="DateTime" Format="DateOnly" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAEndDateOriginal"></Field>
     <Field ID="{3060379a-34d5-4bfb-a97d-f6efa834ff69}" Name="GtBAProjectInvestementPhase" DisplayName="HP-fase" Type="Choice" Format="Dropdown" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectInvestementPhase">
         <CHOICES>
@@ -28,7 +28,6 @@
         </CHOICES>
     </Field>
     <Field Type="Note" DisplayName="Kommentar, tilskudd" Description="" RichText="FALSE" ID="{b8c0ad18-467b-4e7d-8d6b-9ca37171f07b}" StaticName="GtBAProjectSupportComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectSupportComment" Group="{parameter:GenericFieldsGroup}" />
-    <Field Type="Note" DisplayName="Kvalitet" Description="" RichText="FALSE" ID="{49c303ec-9091-4c89-b142-beea168ff4a5}" StaticName="GtBAProjectQuality" Name="GtBAProjectQuality" UnlimitedLengthInDocumentLibrary="TRUE" Group="{parameter:GenericFieldsGroup}" />
     <Field Type="Note" DisplayName="Link til andre dokumenter" Description="" ID="{382e3fc7-0bfc-415c-920e-814cd2d34e7e}" StaticName="GtBADocumentLink" Name="GtBADocumentLink" UnlimitedLengthInDocumentLibrary="TRUE" Group="{parameter:GenericFieldsGroup}" />
     <Field ID="{58947845-13c8-4cb4-892c-90ea727e22a4}" Name="GtBAProjectSHA" DisplayName="Tilskudd" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectSHA">
         <CHOICES>
@@ -47,12 +46,7 @@
     <Field ID="{f2a206c4-3b95-426b-9d46-dc9f283ed453}" Name="GtBAProjectPolitical" DisplayName="Siste politiske vedtak" Type="DateTime" Format="DateOnly" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectPolitical"></Field>
     <Field Type="Note" DisplayName="Kommentar, siste politiske vedtak" Description="" RichText="FALSE" ID="{884d1db9-b8a5-4949-b74d-57d1ae0a2cf9}" StaticName="GtBAProjectPoliticalComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectPoliticalComment" Group="{parameter:GenericFieldsGroup}" />
     <Field ID="{c3ef03c1-b6b8-4b9f-a0e5-3e119d23522f}" Name="GtBAProjectPoliticalLink" DisplayName="Lenke til siste politiske vedtak" Type="URL" Group="{parameter:GenericFieldsGroup}" Description="" Format="Hyperlink" StaticName="GtBAProjectPoliticalLink"></Field>
-    <Field Type="Note" DisplayName="Usikkerhet i prosjektet" Description="" RichText="FALSE" ID="{d3414b2a-5939-4c07-ba0b-83cd2931c9ae}" StaticName="GtBAProjectUncertainty" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectUncertainty" Group="{parameter:GenericFieldsGroup}" />
-    <Field ID="{4d5c89ad-661b-4af3-8602-32f29a33b6aa}" Name="GtBAProjectAccountedTotal" DisplayName="Regnskapsført totalt" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectAccountedTotal"></Field>
-    <Field ID="{7c3b2e69-a62c-49de-ac77-ddbc78afece2}" Name="GtBAProjectAccountedThisYear" DisplayName="Regnskapsført i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectAccountedThisYear"></Field>
-    <Field ID="{acdefadc-b59c-4606-8686-206f87a69731}" Name="GtBAProjectBudgetThisYear" DisplayName="Budsjett i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectBudgetThisYear"></Field>
     <Field ID="{165b92ca-3224-4a86-a749-3b06d315947f}" Name="GtBAProjectPrognosisThisYear" DisplayName="Prognose i år" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectPrognosisThisYear"></Field>
-    <Field ID="{54dff3d7-807a-440a-8327-107abf6aee42}" Name="GtBAProjectReserves" DisplayName="Forpliktet reserve" Type="Number" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectReserves"></Field>
     <Field ID="{f73a2025-53ba-468e-a18f-3714a2a6c71e}" Name="GtBAProjectStatusCase" DisplayName="Status plan- og byggesak" Type="Choice" Format="Dropdown" Group="{parameter:GenericFieldsGroup}" Description="" FillInChoice="TRUE" StaticName="GtBAProjectStatusCase">
         <Default>Reguleringsplan annonsert</Default>
         <CHOICES>
@@ -69,24 +63,14 @@
         </CHOICES>
     </Field>
     <Field Type="Note" DisplayName="Kommentar, status plan- og byggesak" Description="" RichText="FALSE" ID="{3a998841-f6a1-4445-ab71-94f650287f9c}" StaticName="GtBAProjectStatusCaseComment" Name="GtBAProjectStatusCaseComment" Group="{parameter:GenericFieldsGroup}" />
-    <Field ID="{a9902b9d-8aad-40df-9788-ba73c64c3cb5}" Name="GtStatusBudget" DisplayName="Status budsjett" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtStatusBudget">
-        <Default>På budsjett</Default>
-        <CHOICES>
-            <CHOICE>Under budsjett</CHOICE>
-            <CHOICE>På budsjett</CHOICE>
-            <CHOICE>Mindre overskridelser / overskridelser som kan tas igjen</CHOICE>
-            <CHOICE>Over budsjett</CHOICE>
-            <CHOICE>Vet ikke</CHOICE>
-        </CHOICES>
-    </Field>
     <Field ID="{2847b3b0-ed22-4c47-b7c0-3ebfc83dae4a}" Name="GtStakeholderGroup" DisplayName="Interessentgruppe" Type="Choice" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtStakeholderGroup">
         <CHOICES>
             <CHOICE>Politisk</CHOICE>
-            <CHOICE>AK administrasjon</CHOICE>
+            <CHOICE>Kommuneadministrasjon</CHOICE>
             <CHOICE>Virksomheter</CHOICE>
             <CHOICE>Samarbeidspartnere</CHOICE>
             <CHOICE>Råd og utvalg</CHOICE>
-            <CHOICE>Tillitsvalgte (AK)</CHOICE>
+            <CHOICE>Tillitsvalgte</CHOICE>
             <CHOICE>Foreninger (eksterne)</CHOICE>
             <CHOICE>Offentlige myndigheter</CHOICE>
             <CHOICE>Tilsyn og vesener</CHOICE>

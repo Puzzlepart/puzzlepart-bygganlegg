@@ -44,7 +44,6 @@
             <pnp:FieldRef ID="269ce355-74d8-4b7a-ac39-cb13e7129258" Name="GtBAProjectTotalPrognosis" />
             <pnp:FieldRef ID="c3cfcba3-299d-42e8-827b-a593ada04abc" Name="GtBAProjectSupport" Required="false" />
             <pnp:FieldRef ID="b8c0ad18-467b-4e7d-8d6b-9ca37171f07b" Name="GtBAProjectSupportComment" Required="false" />
-            <pnp:FieldRef ID="49c303ec-9091-4c89-b142-beea168ff4a5" Name="GtBAProjectQuality" Required="false" />
             <pnp:FieldRef ID="58947845-13c8-4cb4-892c-90ea727e22a4" Name="GtBAProjectSHA" Required="false" />
             <pnp:FieldRef ID="150c9db0-b582-4997-978a-c76f8a2cd8f5" Name="GtBAProjectSHAComment" Required="false" />
             <pnp:FieldRef ID="df96c2a2-d85c-4d10-ac1f-c5d9bf87873c" Name="GtBAProjectEnv" Required="false" />
@@ -54,11 +53,6 @@
             <pnp:FieldRef ID="f2a206c4-3b95-426b-9d46-dc9f283ed453" Name="GtBAProjectPolitical" Required="false" />
             <pnp:FieldRef ID="884d1db9-b8a5-4949-b74d-57d1ae0a2cf9" Name="GtBAProjectPoliticalComment" Required="false" />
             <pnp:FieldRef ID="c3ef03c1-b6b8-4b9f-a0e5-3e119d23522f" Name="GtBAProjectPoliticalLink" Required="false" />
-            <pnp:FieldRef ID="d3414b2a-5939-4c07-ba0b-83cd2931c9ae" Name="GtBAProjectUncertainty" Required="false" />
-            <pnp:FieldRef ID="4d5c89ad-661b-4af3-8602-32f29a33b6aa" Name="GtBAProjectAccountedTotal" Required="false" />
-            <pnp:FieldRef ID="7c3b2e69-a62c-49de-ac77-ddbc78afece2" Name="GtBAProjectAccountedThisYear" Required="false" />
-            <pnp:FieldRef ID="acdefadc-b59c-4606-8686-206f87a69731" Name="GtBAProjectBudgetThisYear" Required="false" />
-            <pnp:FieldRef ID="54dff3d7-807a-440a-8327-107abf6aee42" Name="GtBAProjectReserves" Required="false" />
         </pnp:FieldRefs>
         <pnp:DocumentTemplate TargetName="/_layouts/15/spcf.aspx" />
     </pnp:ContentType>

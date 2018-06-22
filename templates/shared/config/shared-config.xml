@@ -6,8 +6,9 @@
         </pnp:Parameters>
     </pnp:Preferences>
     <pnp:Templates ID="CONTAINER-PP-SHARED">
-        <pnp:ProvisioningTemplate ID="TEMPLATE-PP-SHARED-DATA-NO" Version="0">
-            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists.xml" />
+        <pnp:ProvisioningTemplate ID="TEMPLATE-PP-SHARED-CONFIG-NO" Version="0">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/SiteFields.xml" />
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/ContentTypes.xml" />
         </pnp:ProvisioningTemplate>
     </pnp:Templates>
 </pnp:Provisioning>

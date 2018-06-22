@@ -18,19 +18,19 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Rådmann</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>AK administrasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Direktør tjenesteområde</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>AK administrasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Virksomhetsleder xxxx</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>AK administrasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Mellomleder</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>AK administrasjon</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>KTA (VVA, avfallsløsninger)</pnp:DataValue>
@@ -82,23 +82,23 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Fagforeninger</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte (AK)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Tillitsvalgte. Se 2)</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte (AK)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Hovedverneombud. Se 2)</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte (AK)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Verneombud. Se 2)</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte (AK)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Arbeidsmiljøutvalg (AMU). Se 2)</pnp:DataValue>
-            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte (AK)</pnp:DataValue>
+            <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName='Title'>Velforening</pnp:DataValue>
