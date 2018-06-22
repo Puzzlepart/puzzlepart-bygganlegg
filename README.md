@@ -1,9 +1,9 @@
 Bygg & anlegg tilpasninger for Prosjektportalen
 =================
 
-## Hva er bygg og anlegg tilpasninger for Prosjektportalen? ##
+## Hva er Bygg & anlegg tilpasninger for Prosjektportalen? ##
 
-Bygg & anlegg tilpasninger for Prosjektportalen er en to valgfrie tilleggspakker som installeres hver for seg på en områdesamling hvor Prosjektportalen allerede er installert. Etter at tilpasningen er installert kan du opprette områder av type bygg eller anlegg avhengig av hvilken tilleggspakke (bygg eller anlegg) som er installert på områdesamlingen. Hvert område er et eget område ganske likt som et standard prosjektområde, men det har noen ulikheter
+Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker som installeres hver for seg på områdesamlinger hvor Prosjektportalen allerede er installert. Etter at tilpasningen er installert kan en opprette områder av type bygg eller anlegg avhengig av hvilken tilleggspakke som er installert på områdesamlingen. Hvert område er et eget område ganske lik et standard prosjektområde, men det har noen ulikheter
 
 * Nytt og tilpasset standard innhold
 * Nye prosjektegenskaper
