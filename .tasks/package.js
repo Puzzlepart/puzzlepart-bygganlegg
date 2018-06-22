@@ -1,6 +1,7 @@
 'use strict';
 var gulp = require("gulp"),
     path = require("path"),
+    pluginError = require('plugin-error'),
     powershell = require("./utils/powershell.js"),
     configuration = require('./@configuration.js');
 

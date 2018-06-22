@@ -3,6 +3,8 @@ var path = require("path")
 
 module.exports = {
     PATHS: {
+        DIST: path.join(__dirname, "../dist"),
+        LIB: path.join(__dirname, "../lib"),
         SCRIPTS: "./.scripts",
         RELEASE: "./release",
         BUILD_GLOB: "./build/**/*",

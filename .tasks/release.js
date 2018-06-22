@@ -1,5 +1,6 @@
 'use strict';
 var gulp = require("gulp"),
+    color = require('gulp-color'),
     zip = require("gulp-zip"),
     format = require("string-format"),
     runSequence = require("run-sequence"),

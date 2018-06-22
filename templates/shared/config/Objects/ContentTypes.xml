@@ -39,9 +39,7 @@
             <pnp:FieldRef ID="9076c206-ca80-4e17-b6f4-6fa3b90c421a" Name="GtProjectForecast" Required="false" />
             <pnp:FieldRef ID="f4623214-ab74-4160-82a7-37d46901bc1b" Name="GtBudgetLastReportDate" Required="false" />
 
-            <pnp:FieldRef ID="2d901967-ea4e-4cca-9548-72b1b65a002a" Name="GtBAProjectBudgetOriginal" Required="false" />
-            <pnp:FieldRef ID="337e5a14-e907-42e5-b48e-02c5254a3772" Name="GtBAProjectBudgetLimit" Required="false" />
-            <pnp:FieldRef ID="269ce355-74d8-4b7a-ac39-cb13e7129258" Name="GtBAProjectTotalPrognosis" />
+
             <pnp:FieldRef ID="c3cfcba3-299d-42e8-827b-a593ada04abc" Name="GtBAProjectSupport" Required="false" />
             <pnp:FieldRef ID="b8c0ad18-467b-4e7d-8d6b-9ca37171f07b" Name="GtBAProjectSupportComment" Required="false" />
             <pnp:FieldRef ID="58947845-13c8-4cb4-892c-90ea727e22a4" Name="GtBAProjectSHA" Required="false" />

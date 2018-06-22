@@ -32,6 +32,8 @@ Param(
     [System.Management.Automation.PSCredential]$PSCredential,
     [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip default config?")]
     [switch]$SkipDefaultConfig,
+    [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip adding data for stakeholders, standard documents, tasks and phase checklist?")]
+    [switch]$SkipData,
     [Parameter(Mandatory = $false)]
     [ValidateSet('None', 'File', 'Host')]
     [string]$Logging = "File"
@@ -92,35 +94,36 @@ function Start-Install() {
 
     # Apply bygg shared-config template 
     
-    # Installing config package
-    if (-not $SkipData.IsPresent) {
-        try {     
-            Connect-SharePoint $Url 
-            Write-Host "Deploying shared-config with fields, content types and lists..." -ForegroundColor Green -NoNewLine
-            Apply-Template -Template "shared-config" -ExcludeHandlers PropertyBagEntries
-            Write-Host "`tDONE" -ForegroundColor Green
-            Disconnect-PnPOnline
-        }
-        catch {
-            Write-Host
-            Write-Host "Error installing shared-config to $Url" -ForegroundColor Red
-            Write-Host $error[0] -ForegroundColor Red
-            exit 1 
-        }
-    }
-    # Apply bygg shared-data template 
+    
+    # Apply bygg shared-config template 
     try {     
         Connect-SharePoint $Url 
-        Write-Host "Deploying shared-data with fields, content types and lists..." -ForegroundColor Green -NoNewLine
-        Apply-Template -Template "shared-data" -ExcludeHandlers PropertyBagEntries
+        Write-Host "Deploying shared-config with fields, content types and lists..." -ForegroundColor Green -NoNewLine
+        Apply-Template -Template "shared-config" -ExcludeHandlers PropertyBagEntries
         Write-Host "`tDONE" -ForegroundColor Green
         Disconnect-PnPOnline
     }
     catch {
         Write-Host
-        Write-Host "Error installing shared-package to $Url" -ForegroundColor Red
+        Write-Host "Error installing shared-config to $Url" -ForegroundColor Red
         Write-Host $error[0] -ForegroundColor Red
         exit 1 
+    }
+    # Installing config package
+    if (-not $SkipData.IsPresent) {
+        try {     
+            Connect-SharePoint $Url 
+            Write-Host "Deploying shared-data with lists..." -ForegroundColor Green -NoNewLine
+            Apply-Template -Template "shared-data" -ExcludeHandlers PropertyBagEntries
+            Write-Host "`tDONE" -ForegroundColor Green
+            Disconnect-PnPOnline
+        }
+        catch {
+            Write-Host
+            Write-Host "Error installing shared-data to $Url" -ForegroundColor Red
+            Write-Host $error[0] -ForegroundColor Red
+            exit 1 
+        }
     }
     switch ( $ProjectType ) {
         Bygg { 
@@ -141,11 +144,10 @@ function Start-Install() {
             }
 
             # Apply bygg-data template 
-            
             if (-not $SkipData.IsPresent) {
                 try {     
                     Connect-SharePoint $Url 
-                    Write-Host "Deploying bygg-data with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                    Write-Host "Deploying bygg-data with lists..." -ForegroundColor Green -NoNewLine
                     Apply-Template -Template "bygg-data" -ExcludeHandlers PropertyBagEntries
                     Write-Host "`tDONE" -ForegroundColor Green
                     Disconnect-PnPOnline
@@ -162,7 +164,7 @@ function Start-Install() {
             # Apply anlegg template 
             try {     
                 Connect-SharePoint $Url 
-                Write-Host "Deploying anlegg-config with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                Write-Host "Deploying anlegg-config with fields, contentypes and lists..." -ForegroundColor Green -NoNewLine
                 Apply-Template -Template "anlegg-config" -ExcludeHandlers PropertyBagEntries
                 Write-Host "`tDONE" -ForegroundColor Green
                 Disconnect-PnPOnline
@@ -174,11 +176,10 @@ function Start-Install() {
                 exit 1 
             }
             # Apply anlegg template 
-            
             if (-not $SkipData.IsPresent) {
                 try {     
                     Connect-SharePoint $Url 
-                    Write-Host "Deploying anlegg-data with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
+                    Write-Host "Deploying anlegg-data with lists..." -ForegroundColor Green -NoNewLine
                     Apply-Template -Template "anlegg-data" -ExcludeHandlers PropertyBagEntries
                     Write-Host "`tDONE" -ForegroundColor Green
                     Disconnect-PnPOnline
