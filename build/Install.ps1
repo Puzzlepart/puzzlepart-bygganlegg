@@ -26,12 +26,8 @@ Param(
     [switch]$UseWebLogin,
     [Parameter(Mandatory = $false, HelpMessage = "Use the credentials of the current user to connect to SharePoint. Useful e.g. if you install directly from the server.")]
     [switch]$CurrentCredentials,
-    [Parameter(Mandatory = $false, HelpMessage = "Use this flag if you're upgrading an installation.")]
-    [switch]$Upgrade,
     [Parameter(Mandatory = $false, HelpMessage = "PowerShell credential to authenticate with")]
     [System.Management.Automation.PSCredential]$PSCredential,
-    [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip default config?")]
-    [switch]$SkipDefaultConfig,
     [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip adding data for stakeholders, standard documents, tasks and phase checklist?")]
     [switch]$SkipData,
     [Parameter(Mandatory = $false)]

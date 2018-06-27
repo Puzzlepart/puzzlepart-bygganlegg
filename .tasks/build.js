@@ -6,7 +6,6 @@ var gulp = require("gulp"),
     replace = require('gulp-replace'),
     format = require("string-format"),
     configuration = require('./@configuration.js'),
-    merge = require("merge2"),
     git = require("./utils/git.js"),
     pkg = require("../package.json");
 
