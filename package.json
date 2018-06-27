@@ -21,7 +21,6 @@
     "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
-    "gulp-color": "0.0.1",
     "gulp-flatmap": "^1.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
