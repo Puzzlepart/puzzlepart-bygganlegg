@@ -1,25 +1,27 @@
-Bygg & anlegg tilpasninger for Prosjektportalen
-=================
+# Bygg & anlegg tilpasninger for Prosjektportalen
 
-## Hva er Bygg & anlegg tilpasninger for Prosjektportalen? ##
+Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker som installeres hver for seg på områdesamlinger hvor [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) allerede er installert. Etter at tilpasningen er installert kan en opprette områder av type bygg eller anlegg avhengig av hvilken tilleggspakke som er installert på områdesamlingen. Hvert område er et eget område ganske lik et standard prosjektområde, men det har noen ulikheter
 
-Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker som installeres hver for seg på områdesamlinger hvor Prosjektportalen allerede er installert. Etter at tilpasningen er installert kan en opprette områder av type bygg eller anlegg avhengig av hvilken tilleggspakke som er installert på områdesamlingen. Hvert område er et eget område ganske lik et standard prosjektområde, men det har noen ulikheter
+* Nytt og tilpasset standardinnhold (dokumenter, fasesjekkpunkter)
+* Tilpassede prosjektegenskaper for bygg- og anleggsprosjekter
+* Egne faser for prosjektgjennomføring
 
-* Nytt og tilpasset standard innhold
-* Nye prosjektegenskaper
+## Installering
 
+Bygg & anlegg installeres på hver sin egen områdesamling over en Prosjektportalen-installasjon. Det blir altså en portefølje for bygg og en for anlegg, for eksempel https://tenant.sharepoint/sites/prosjektportalen-bygg eller https://tenant.sharepoint/sites/prosjektportalen-anlegg.
 
-## Installering ##
+Bygg & anlegg tilpasninger for Prosjektportalen installeres med Powershell på følgende måte (eksempel med bygg-tilpasninger). Merk at [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må allerede være installert før dette gjøres.
 
-Bygg & anlegg installeres på hver sin egen områdesamling over en Prosjektportalen-installasjon. Det blir altså en portefølje for bygg og en for anlegg. F. eks. https://tenant.sharepoint/sites/prosjektportalen-bygg eller https://tenant.sharepoint/sites/prosjektportalen-anlegg
+```PowerShell
+./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -ProjectType Bygg
+```
 
-Bygg & anlegg tilpasninger for Prosjektportalen installeres med Powershell. 
+## Kontakt
 
+Har du spørsmål vedrørende Bygg & anlegg tilpasninger for Prosjektportalen, behov for bistand til installasjon av løsningen eller er interessert i muligheter for videreutvikling og spesialtilpasninger, ta kontakt med [prosjektportalen@puzzlepart.com](mailto:prosjektportalen@puzzlepart.com). Vi gjør oppmerksom på at eventuell bistand vil være en fakturerbar tjeneste.
 
-## Kontakt ##
+## Maintainers
 
-Har du spørsmål vedrørende Bygg & anlegg tilpasninger for Prosjektportalen, behov for bistand til installasjon av løsningen eller muligheter for videreutvikling og spesialtilpasninger, ta kontakt med <a href="mailto:prosjektportalen@puzzlepart.com">Prosjektportalen @ Puzzlepart</a>. For tekniske spørsmål, ta kontakt med [<a href="mailto:tarjeieo@puzzlepart.com">Tarjei Ormestøyl</a>] [<a href="mailto:thomasog@puzzlepart.com">Thomas Granheim</a>] eller [<a href="mailto:olemp@puzzlepart.com">Ole Martin Pettersen</a>]. Vi gjør oppmerksom på at eventuell bistand vil være en fakturerbar tjeneste. 
-
-## Maintainers ##
-
-Tarjei Ormestøyl [tarjeieo@puzzlepart.com], Thomas Granheim [thomasog@puzzlepart.com], Ole Martin Pettersen [olemp@puzzlepart.com]
+* [Tarjei Ormestøyl](tarjeieo@puzzlepart.com)
+* [Thomas Granheim](thomasog@puzzlepart.com)
+* [Ole Martin Pettersen](olemp@puzzlepart.com)
