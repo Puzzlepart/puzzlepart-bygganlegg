@@ -25,7 +25,6 @@
         </CHOICES>
     </Field>
     <Field Type="Note" DisplayName="Kommentar, tilskudd" Description="" RichText="FALSE" ID="{b8c0ad18-467b-4e7d-8d6b-9ca37171f07b}" StaticName="GtBAProjectSupportComment" UnlimitedLengthInDocumentLibrary="TRUE" Name="GtBAProjectSupportComment" Group="{parameter:GenericFieldsGroup}" />
-    <Field Type="Note" DisplayName="Link til andre dokumenter" Description="" ID="{382e3fc7-0bfc-415c-920e-814cd2d34e7e}" StaticName="GtBADocumentLink" Name="GtBADocumentLink" UnlimitedLengthInDocumentLibrary="TRUE" Group="{parameter:GenericFieldsGroup}" />
     <Field ID="{58947845-13c8-4cb4-892c-90ea727e22a4}" Name="GtBAProjectSHA" DisplayName="SHA" Type="Choice" Format="RadioButtons" Group="{parameter:GenericFieldsGroup}" Description="" StaticName="GtBAProjectSHA">
         <CHOICES>
             <CHOICE>Ingen hendelser siste måned</CHOICE>

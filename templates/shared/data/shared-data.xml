@@ -5,8 +5,8 @@
             <pnp:Parameter Key="GenericFieldsGroup">Prosjektportalen bygg og anlegg områdekolonner</pnp:Parameter>
         </pnp:Parameters>
     </pnp:Preferences>
-    <pnp:Templates ID="CONTAINER-PP-SHARED">
-        <pnp:ProvisioningTemplate ID="TEMPLATE-PP-SHARED-DATA-NO" Version="0">
+    <pnp:Templates ID="CONTAINER-PPBA-SHARED">
+        <pnp:ProvisioningTemplate ID="TEMPLATE-PPBA-SHARED-DATA-NO" Version="0">
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists.xml" />
         </pnp:ProvisioningTemplate>
     </pnp:Templates>
