@@ -89,9 +89,6 @@ function Start-Install() {
     }
 
     # Apply bygg shared-config template 
-    
-    
-    # Apply bygg shared-config template 
     try {     
         Connect-SharePoint $Url 
         Write-Host "Deploying shared-config with fields, content types and lists..." -ForegroundColor Green -NoNewLine
@@ -105,6 +102,7 @@ function Start-Install() {
         Write-Host $error[0] -ForegroundColor Red
         exit 1 
     }
+
     # Installing config package
     if (-not $SkipData.IsPresent) {
         try {     
@@ -122,8 +120,7 @@ function Start-Install() {
         }
     }
     switch ( $ProjectType ) {
-        Bygg { 
-           
+        Bygg {
             # Apply bygg-config template 
             try {     
                 Connect-SharePoint $Url 
