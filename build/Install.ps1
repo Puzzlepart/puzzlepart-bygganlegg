@@ -98,7 +98,7 @@ function Start-Install() {
         exit 1 
     }
 
-    # Installing config package
+    # Installing shared-data package
     if (-not $SkipData.IsPresent) {
         try {     
             Connect-SharePoint $Url 
@@ -114,6 +114,10 @@ function Start-Install() {
             exit 1 
         }
     }
+    Write-Host "Manual installation step required!" -ForegroundColor Yellow
+    Write-Host "Navigate to $Url/_layouts/15/FldEditEx.aspx?field=GtProjectPhase." -ForegroundColor Yellow
+    Write-Host "Under the section 'Innstillinger for termsett', select 'Fase ($ProjectType)' instead of 'Fase'. Click 'OK'." -ForegroundColor Yellow
+    Read-Host -Prompt "When you are done, press enter to continue installation"
     switch ( $ProjectType ) {
         Bygg {
             # Apply bygg-config template 
