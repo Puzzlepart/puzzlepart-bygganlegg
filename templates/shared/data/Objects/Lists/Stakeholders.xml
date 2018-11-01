@@ -25,7 +25,7 @@
             <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Virksomhetsleder xxxx</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Virksomhetsleder</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Kommuneadministrasjon</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
@@ -69,7 +69,7 @@
             <pnp:DataValue FieldName='GtStakeholderGroup'>Råd og utvalg</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>AK Idrettsråd</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Kommunalt Idrettsråd</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Råd og utvalg</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
@@ -85,19 +85,19 @@
             <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Tillitsvalgte. Se 2)</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Tillitsvalgte</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Hovedverneombud. Se 2)</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Hovedverneombud)</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Verneombud. Se 2)</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Verneombud</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Arbeidsmiljøutvalg (AMU). Se 2)</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Arbeidsmiljøutvalg (AMU)</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Tillitsvalgte</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
