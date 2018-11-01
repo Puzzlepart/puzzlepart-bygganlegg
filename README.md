@@ -1,5 +1,7 @@
 # Bygg & anlegg tilpasninger for Prosjektportalen
 
+NB: Bygg & anlegg tilpasningene er i en test-fase og det gjenstår fortsatt en del forankringsarbeid. Kom gjerne med innspill!
+
 Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker som installeres hver for seg på områdesamlinger hvor [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) allerede er installert. Etter at tilpasningen er installert kan en opprette områder av type bygg eller anlegg avhengig av hvilken tilleggspakke som er installert på områdesamlingen. Hvert område er et eget område ganske lik et standard prosjektområde, men det har noen ulikheter
 
 * Nytt og tilpasset standardinnhold (dokumenter, fasesjekkpunkter)
