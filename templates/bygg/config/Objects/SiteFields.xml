@@ -10,9 +10,7 @@
                 </Property>
                 <Property>
                     <Name>TermSetId</Name>
-                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" 
-                        xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{d0be659f-905c-41d6-bd5b-1d97439f2eb8}                                                                                                                                                                                                                                                                                                                                                                                          
-                    </Value>
+                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:Prosjektportalen:Fase (Bygg)}</Value>
                 </Property>
             </ArrayOfProperty>
         </Customization>
@@ -28,9 +26,7 @@
                 </Property>
                 <Property>
                     <Name>TermSetId</Name>
-                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" 
-                        xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{d0be659f-905c-41d6-bd5b-1d97439f2eb8}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-                    </Value>
+                    <Value xmlns:q2="http://www.w3.org/2001/XMLSchema" p4:type="q2:string" xmlns:p4="http://www.w3.org/2001/XMLSchema-instance">{termsetid:Prosjektportalen:Fase (Bygg)}</Value>
                 </Property>
             </ArrayOfProperty>
         </Customization>
