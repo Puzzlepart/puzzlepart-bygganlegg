@@ -30,6 +30,8 @@ Param(
     [System.Management.Automation.PSCredential]$PSCredential,
     [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip adding data for stakeholders, standard documents, tasks and phase checklist?")]
     [switch]$SkipData,
+    [Parameter(Mandatory = $false, HelpMessage = "Do you want to skip installing the phase term set? (In case of an existing one)")]
+    [switch]$SkipTaxonomy,
     [Parameter(Mandatory = $false)]
     [ValidateSet('None', 'File', 'Host')]
     [string]$Logging = "File"
@@ -54,11 +56,8 @@ function Start-Install() {
     $CurrentPPVersion = ParseVersion -VersionString (Get-PnPPropertyBag -Key pp_version)
     if (-not $CurrentPPVersion) {
         $CurrentPPVersion = "N/A"
-
-        if ($ProjectPortalReleasePath -eq $null) {
-            Write-Host "Project Portal is not installed on the specified URL. You need to specify ProjectPortalReleasePath to install Project Portal first." -ForegroundColor Red
-            exit 1 
-        }
+        Write-Host "Pre-requirement not met: Project portal is not installed. See Readme."
+        exit 0
     }
 
     # Prints header
@@ -67,7 +66,6 @@ function Start-Install() {
     Write-Host "Installing $($ProjectType) v{package-version}" -ForegroundColor Green
     Write-Host "" -ForegroundColor Green
     Write-Host "Installation URL:`t`t[$Url]" -ForegroundColor Green
-    Write-Host "Environment:`t`t`t[$Environment]" -ForegroundColor Green
     Write-Host "Project Portal Version:`t`t[$CurrentPPVersion]" -ForegroundColor Green
     Write-Host "" -ForegroundColor Green
     Write-Host "############################################################################" -ForegroundColor Green
@@ -84,15 +82,12 @@ function Start-Install() {
     elseif ($Logging -eq "Host") {
         Set-PnPTraceLog -On -Level Debug
     }
-    else {
-        Set-PnPTraceLog -Off
-    }
 
     # Apply bygg shared-config template 
     try {     
         Connect-SharePoint $Url 
         Write-Host "Deploying shared-config with fields, content types and lists..." -ForegroundColor Green -NoNewLine
-        Apply-Template -Template "shared-config" -ExcludeHandlers PropertyBagEntries
+        Apply-Template -Template "shared-config"
         Write-Host "`tDONE" -ForegroundColor Green
         Disconnect-PnPOnline
     }
@@ -108,7 +103,7 @@ function Start-Install() {
         try {     
             Connect-SharePoint $Url 
             Write-Host "Deploying shared-data with lists..." -ForegroundColor Green -NoNewLine
-            Apply-Template -Template "shared-data" -ExcludeHandlers PropertyBagEntries
+            Apply-Template -Template "shared-data"
             Write-Host "`tDONE" -ForegroundColor Green
             Disconnect-PnPOnline
         }
@@ -125,7 +120,12 @@ function Start-Install() {
             try {     
                 Connect-SharePoint $Url 
                 Write-Host "Deploying bygg-config with fields, contentypes and lists ..." -ForegroundColor Green -NoNewLine
-                Apply-Template -Template "bygg-config" -ExcludeHandlers PropertyBagEntries
+                if ($SkipTaxonomy.IsPresent) {
+                    Apply-Template -Template "bygg-config" -ExcludeHandlers TermGroups
+                } else {
+                    Apply-Template -Template "bygg-config"
+                }
+                
                 Write-Host "`tDONE" -ForegroundColor Green
                 Disconnect-PnPOnline
             }
@@ -141,7 +141,7 @@ function Start-Install() {
                 try {     
                     Connect-SharePoint $Url 
                     Write-Host "Deploying bygg-data with lists..." -ForegroundColor Green -NoNewLine
-                    Apply-Template -Template "bygg-data" -ExcludeHandlers PropertyBagEntries
+                    Apply-Template -Template "bygg-data"
                     Write-Host "`tDONE" -ForegroundColor Green
                     Disconnect-PnPOnline
                 }
@@ -158,7 +158,11 @@ function Start-Install() {
             try {     
                 Connect-SharePoint $Url 
                 Write-Host "Deploying anlegg-config with fields, contentypes and lists..." -ForegroundColor Green -NoNewLine
-                Apply-Template -Template "anlegg-config" -ExcludeHandlers PropertyBagEntries
+                if ($SkipTaxonomy.IsPresent) {
+                    Apply-Template -Template "anlegg-config" -ExcludeHandlers TermGroups
+                } else {
+                    Apply-Template -Template "anlegg-config"
+                }
                 Write-Host "`tDONE" -ForegroundColor Green
                 Disconnect-PnPOnline
             }
@@ -173,7 +177,7 @@ function Start-Install() {
                 try {     
                     Connect-SharePoint $Url 
                     Write-Host "Deploying anlegg-data with lists..." -ForegroundColor Green -NoNewLine
-                    Apply-Template -Template "anlegg-data" -ExcludeHandlers PropertyBagEntries
+                    Apply-Template -Template "anlegg-data"
                     Write-Host "`tDONE" -ForegroundColor Green
                     Disconnect-PnPOnline
                 }
