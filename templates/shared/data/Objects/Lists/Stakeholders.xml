@@ -57,7 +57,7 @@
             <pnp:DataValue FieldName='GtStakeholderGroup'>Samarbeidspartnere</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName='Title'>Rådgvivere/ prosjekterende</pnp:DataValue>
+            <pnp:DataValue FieldName='Title'>Rådgivere/ prosjekterende</pnp:DataValue>
             <pnp:DataValue FieldName='GtStakeholderGroup'>Samarbeidspartnere</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
