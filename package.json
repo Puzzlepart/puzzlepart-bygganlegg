@@ -18,6 +18,7 @@
     "homepage": "https://github.com/Puzzlepart/prosjektportalen-bygganlegg#readme",
     "devDependencies": {
         "event-stream": "^4.0.1",
+        "extend": ">=3.0.2",
         "graceful-fs": "^4.1.15",
         "gulp": "^3.9.1",
         "gulp-clean": "^0.4.0",
