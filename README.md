@@ -6,11 +6,11 @@ Bygg & anlegg tilpasninger for Prosjektportalen er to valgfrie tilleggspakker so
 
 * Nytt og tilpasset standardinnhold (dokumenter, fasesjekkpunkter)
 * Tilpassede prosjektegenskaper for bygg- og anleggsprosjekter
-* Egne faser for prosjektgjennomføring
+* Egne faser som er tilpasset bygg/anlegg
 
 ## Installering
 
-Bygg & anlegg installeres på hver sin egen områdesamling over en Prosjektportalen-installasjon. Det blir altså en portefølje for bygg og en for anlegg, for eksempel https://tenant.sharepoint/sites/prosjektportalen-bygg eller https://tenant.sharepoint/sites/prosjektportalen-anlegg.
+Bygg & anlegg installeres på hver sin egen områdesamling over en Prosjektportalen-installasjon. Det blir altså en portefølje for bygg og en for anlegg, for eksempel https://tenant.sharepoint/sites/prosjektportalen-bygg eller https://tenant.sharepoint/sites/prosjektportalen-anlegg. Installasjonen av Prosjektportalen gjøres uten standarddata, slik at standarddata kommer fra bygg- eller anleggspakken.
 
 ### Håndtering av PnP Powershell for installasjon
 
@@ -21,7 +21,7 @@ PnP Powershell er automatisk bundlet med standard installasjon av Prosjektportal
 
 Bygg & anlegg tilpasninger for Prosjektportalen installeres med Powershell på følgende måte (eksempel med bygg-tilpasninger).
 
-1. [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må være installert. Ved installasjon av Prosjektportalen anbefaler vi å bruke -SkipDefaultData parameteren slik at standard data ikke blir installert. Eksempel:
+1. [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må være installert. Ved installasjon av Prosjektportalen bør du bruke -SkipDefaultData parameteren slik at standard data ikke blir installert. Eksempel:
 
 ```PowerShell
 ./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -SkipDefaultData

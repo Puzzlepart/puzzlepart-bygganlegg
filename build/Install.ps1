@@ -37,6 +37,8 @@ Param(
     [string]$Logging = "File"
 )
 
+$ErrorActionPreference = "Stop"
+
 . ./SharedFunctions.ps1
 
 #Handling credentials
@@ -69,10 +71,6 @@ function Start-Install() {
     Write-Host "Project Portal Version:`t`t[$CurrentPPVersion]" -ForegroundColor Green
     Write-Host "" -ForegroundColor Green
     Write-Host "############################################################################" -ForegroundColor Green
-
-    # Starts stop watch
-    $sw = [Diagnostics.Stopwatch]::StartNew()
-    $ErrorActionPreference = "Stop"
 
     # Sets up PnP trace log
     if ($Logging -eq "File") {
@@ -115,7 +113,7 @@ function Start-Install() {
         }
     }
     Write-Host "Manual installation step required!" -ForegroundColor Yellow
-    Write-Host "Navigate to $Url/_layouts/15/FldEditEx.aspx?field=GtProjectPhase." -ForegroundColor Yellow
+    Write-Host "Open a browser window and navigate to $Url/_layouts/15/FldEditEx.aspx?field=GtProjectPhase." -ForegroundColor Yellow
     Write-Host "Under the section 'Innstillinger for termsett', select 'Fase ($ProjectType)' instead of 'Fase'. Click 'OK'." -ForegroundColor Yellow
     Read-Host -Prompt "When you are done, press enter to continue installation"
     switch ( $ProjectType ) {
@@ -195,8 +193,7 @@ function Start-Install() {
         }
     }
 
-    $sw.Stop()
-    Write-Host "Installation completed in [$($sw.Elapsed)]" -ForegroundColor Green
+    Write-Host "Installation completed" -ForegroundColor Green
 }
 
 Start-Install
