@@ -21,10 +21,10 @@ PnP Powershell er automatisk bundlet med standard installasjon av Prosjektportal
 
 Bygg & anlegg tilpasninger for Prosjektportalen installeres med Powershell på følgende måte (eksempel med bygg-tilpasninger).
 
-1. [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må være installert. Ved installasjon av Prosjektportalen bør du bruke -SkipDefaultData parameteren slik at standard data ikke blir installert. Eksempel:
+1. [Prosjektportalen](https://github.com/Puzzlepart/prosjektportalen) må være installert. Ved installasjon av Prosjektportalen bør du bruke -SkipData parameteren slik at standard data ikke blir installert. Eksempel:
 
 ```PowerShell
-./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -SkipDefaultData
+./Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/bygg -SkipData
 ```
 
 2. Installer Bygg-tilpasningene (i dette eksempelet) på følgende måte
